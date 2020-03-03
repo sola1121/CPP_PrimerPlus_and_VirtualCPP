@@ -1,0 +1,20 @@
+//递归
+
+#include <iostream>
+void countdown(int n);
+
+int main(){
+	countdown(4);
+	
+	system("pause");
+	return 0;
+}
+
+void countdown(int n){
+	using namespace std;
+	
+	cout<<"Counting down..."<<n<<"  n at "<<&n<<endl;   //有数套不同的n,通过地址可以验证 
+	if (n>0)
+		countdown(n-1);
+	cout<<n<<": Kaboom!"<<"  n at "<<&n<<endl;   //有数套不同的n,通过地址可以验证 
+}

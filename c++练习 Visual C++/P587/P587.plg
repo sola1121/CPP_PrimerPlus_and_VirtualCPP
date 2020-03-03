@@ -1,0 +1,64 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: P587 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPBBAD.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/P587.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPBBAD.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPBBAE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/P587.pdb" /debug /machine:I386 /out:"Debug/P587.exe" /pdbtype:sept 
+".\Debug\tempparm.obj"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPBBAE.tmp"
+<h3>Output Window</h3>
+Compiling...
+tempparm.cpp
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(4) : error C2954: template definitions cannot nest
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(4) : error C2951: template declarations are only permitted at global or namespace scope
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(4) : error C2226: syntax error : unexpected type 'Thing'
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(5) : error C2143: syntax error : missing '>' before '{'
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(14) : error C2059: syntax error : '<end Parse>'
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(17) : error C2653: 'std' : is not a class or namespace name
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(17) : error C2873: 'cout' : symbol cannot be used in a using-declaration
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(18) : error C2653: 'std' : is not a class or namespace name
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(18) : error C2873: 'cin' : symbol cannot be used in a using-declaration
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(19) : error C2653: 'std' : is not a class or namespace name
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(19) : error C2873: 'endl' : symbol cannot be used in a using-declaration
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(21) : error C2065: 'Crab' : undeclared identifier
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(21) : error C2065: 'Stack' : undeclared identifier
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(21) : error C2065: 'nebula' : undeclared identifier
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(21) : warning C4804: '>' : unsafe use of type 'bool' in operation
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(21) : warning C4552: '>' : operator has no effect; expected operator with side-effect
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(26) : error C2065: 'cout' : undeclared identifier
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(26) : error C2297: '<<' : illegal, right operand has type 'char [54]'
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(27) : error C2065: 'cin' : undeclared identifier
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(27) : error C2065: 'ni' : undeclared identifier
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(27) : error C2065: 'nb' : undeclared identifier
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(27) : error C2065: 'ni' : undeclared identifier
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(27) : error C2065: 'nb' : undeclared identifier
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(28) : error C2065: 'nebula' : undeclared identifier
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(28) : error C2228: left of '.push' must have class/struct/union type
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(28) : error C2065: 'ni' : undeclared identifier
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(28) : error C2065: 'nb' : undeclared identifier
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(32) : error C2065: 'nebula' : undeclared identifier
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(32) : error C2228: left of '.pop' must have class/struct/union type
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(32) : error C2065: 'ni' : undeclared identifier
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(32) : error C2065: 'nb' : undeclared identifier
+E:\[自用]资料\c++练习 Visual C++\P587\tempparm.cpp(32) : fatal error C1903: unable to recover from previous error(s); stopping compilation
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+P587.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
